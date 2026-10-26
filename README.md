@@ -21,4 +21,6 @@ This repository holds release documentation, version manifests and download reco
 
 Each future release must list its actual files, source revision, SHA-256 checksums, supported platforms and verification results. A manifest example is documentation and does not create a software version or download.
 
+The current engineering checkpoint implements both the interface and backend in Rust. Windows and WebAssembly builds pass, with 72 Rust tests and 43 browser acceptance checks. This remains an unpublished local development build: live AI/speech, reviewed curricula, mobile qualification and distribution review are incomplete. See the [checkpoint record](manifests/rust-engineering-checkpoint.json) for the source revision and build hashes. No installer, APK or IPA is available from that record.
+
 DanskMentor AI is an independent learning aid. It does not issue official examination certificates or imply government endorsement. Software attribution is recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

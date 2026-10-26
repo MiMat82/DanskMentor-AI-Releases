@@ -1,0 +1,52 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "tagline": "AI-guided Danish learning and exam preparation.",
+  "endorsement": "by Novalon Learn",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "c34b441190a9c360f1b36d060f7413e3d761470d",
+  "architecture": {
+    "interface": "Rust / Dioxus 0.7.10",
+    "backend": "Rust / Axum / SQLite",
+    "windows_renderer": "WebView2",
+    "web_renderer": "WebAssembly"
+  },
+  "verification": {
+    "rust_tests_passed": 72,
+    "core_browser_checks_passed": 13,
+    "learning_privacy_browser_checks_passed": 12,
+    "staff_browser_checks_passed": 18,
+    "format_passed": true,
+    "strict_clippy_passed": true,
+    "native_release_build_passed": true,
+    "production_wasm_build_passed": true,
+    "native_embedded_service_observed": true,
+    "clean_machine_qualified": false
+  },
+  "local_build_records": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 22419456,
+      "sha256": "091a4caba9b3a28282b13c43a544c67b12798c7a915db0e219ee81aa3fc760ba",
+      "download_url": null,
+      "status": "local_development_executable_not_a_published_package"
+    }
+  ],
+  "platform_packages": {
+    "signed_desktop_installer": false,
+    "android_apk": false,
+    "ios_ipa": false
+  },
+  "remaining_gates": [
+    "Six missing captured license texts in each Windows and Wasm inventory",
+    "Five retained advisory warnings and incomplete yanked-package check",
+    "Windows runtime redistribution, clean-machine and installer qualification",
+    "Android NDK/mobile bootstrap/storage/device qualification",
+    "macOS/Xcode/iOS signing and device qualification",
+    "Configured and tested AI/speech providers and grounded tutoring",
+    "Reviewed curricula and qualified official-format content",
+    "Full privacy/backup replay and public production review"
+  ],
+  "downloads": []
+}
