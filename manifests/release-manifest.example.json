@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "status": "unpublished",
+  "product": {
+    "name": "DanskMentor AI",
+    "tagline": "AI-guided Danish learning and exam preparation.",
+    "byline": "by Novalon Learn"
+  },
+  "release_version": null,
+  "release_tag": null,
+  "published_at": null,
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_commit": null,
+  "targets": [
+    { "platform": "desktop", "availability": "not_built", "artifacts": [] },
+    { "platform": "android", "package_format": "apk", "availability": "not_built", "artifacts": [] },
+    { "platform": "ios", "package_format": "ipa", "availability": "not_built", "artifacts": [] }
+  ],
+  "artifacts": [],
+  "verification": [],
+  "notes": "Documentation example only. No software version, package, signature, checksum or download is asserted."
+}

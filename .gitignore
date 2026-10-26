@@ -1,0 +1,25 @@
+# Credentials and private working files never belong in the public release repo.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+private/
+tmp/
+*.log
+
+# Installers belong on GitHub Releases as verified assets.
+*.exe
+*.msi
+*.msix
+*.dmg
+*.pkg
+*.AppImage
+*.deb
+*.rpm
+*.apk
+*.aab
+*.ipa
