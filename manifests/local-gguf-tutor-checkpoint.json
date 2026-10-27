@@ -1,0 +1,67 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "tagline": "AI-guided Danish learning and exam preparation.",
+  "endorsement": "by Novalon Learn",
+  "recorded_at": "2026-10-27T17:12:56.420251+00:00",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "0ae26fe1e57586544efce95cdcf70943010385e3",
+  "architecture": {
+    "interface": "Rust / Dioxus 0.7.10",
+    "backend": "Rust / Axum / SQLite",
+    "local_inference": "Separate existing llama.cpp GGUF runtime; weights and runtime not distributed"
+  },
+  "verification": {
+    "rust_tests_passed": 102,
+    "domain": 21,
+    "server": 51,
+    "interface": 30,
+    "baseline_browser_checks_passed": 43,
+    "tutor_browser_checks_passed": 21,
+    "baseline_scope": "QA03 before the final tutor-only prompt/retrieval change; exact identity retained in the private source record",
+    "tutor_scope": "One clean QA05 production-Wasm run against the final release service, including three inspected synthetic local-model cases",
+    "format_passed": true,
+    "strict_clippy_passed": true,
+    "native_release_build_passed": true,
+    "production_wasm_build_passed": true,
+    "model_quality_qualified": false,
+    "human_curriculum_review": false,
+    "native_live_inference_tested": false
+  },
+  "engineering_artifacts_not_published": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 24116736,
+      "sha256": "769b58b6f407309f8611b5a8116b02251ae762e953931c35c043f31c9b3e1dc5"
+    },
+    {
+      "file": "danskmentor-server.exe",
+      "bytes": 12834304,
+      "sha256": "9d01e4bfb6995356a6bc76ff3d1e2898dd49135fff225bff1561ca8b268590ac"
+    },
+    {
+      "file": "production WebAssembly",
+      "bytes": 2176715,
+      "sha256": "46655d6890dc6c26a694f9d5b3aefed99ca5d5602168845f788ebecb973fbfbd"
+    }
+  ],
+  "available_features": [
+    "Explicit local model configuration",
+    "Published-lesson source references",
+    "Transcript-free text tutoring and writing feedback",
+    "Opt-in private conversation history",
+    "Server-side timed-exam restrictions"
+  ],
+  "remaining_gates": [
+    "Human-reviewed curriculum and broader teaching evaluation",
+    "Speaking/speech assessment and calibrated grades",
+    "Complete privacy deletion/backup replay",
+    "Clean-machine and mobile/device/signing qualification",
+    "Five retained dependency advisory warnings, six missing captured licence texts per target and incomplete yanked-package check"
+  ],
+  "installers": [],
+  "apk": null,
+  "ipa": null,
+  "downloads": []
+}
