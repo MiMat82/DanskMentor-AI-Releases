@@ -1,0 +1,59 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "recorded_date": "2026-10-28",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "1f482587edd853a63e090df5a61e2424d4991a05",
+  "implementation_revision": "d81c98b1a815d0e6a0fddb25e03e66561a339989",
+  "change": "Continue native microphone capture after recoverable notifications; preserve genuine failures; publish completion after stream teardown and prevent overlapping capture.",
+  "cpal": {
+    "version": "0.18.2",
+    "revision": "e1612d5d98152f8dc2a62e1b51ef7cbf4f7f26b7",
+    "dependencies_changed": false,
+    "recoverable_kinds": [
+      "Xrun",
+      "DeviceChanged",
+      "RealtimeDenied"
+    ]
+  },
+  "verification": {
+    "rust_tests_passed": 149,
+    "domain": 23,
+    "server": 75,
+    "interface": 51,
+    "native_capture_regressions_included": 5,
+    "desktop_feature_enabled_for_tests": true,
+    "strict_clippy_passed": true,
+    "format_passed": true,
+    "native_release_build_passed": true,
+    "production_web_build_passed": true,
+    "forced_red_sensitivity_check_passed": true,
+    "unmodified_copied_module_native_tests_passed": 5,
+    "preview_bridge_regression_passed": true,
+    "physical_microphone_used": false,
+    "physical_microphone_issue_reproduced": false,
+    "native_gui_verified": false,
+    "browser_runtime_retested": false,
+    "recognizer_or_model_calls": 0,
+    "real_profile_or_database_used": false,
+    "transcription_setting_changed": false,
+    "clean_machine_verified": false,
+    "fresh_advisory_audit": false
+  },
+  "original_device_notification": "unknown: previous application discarded its kind",
+  "engineering_artifacts_not_published": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 25324032,
+      "sha256": "70368aa8b56e1b00c96be802867ddc7c8696eccf63a48419341108fd3b29d931"
+    },
+    {
+      "file": "indexed production WebAssembly",
+      "bytes": 2400185,
+      "sha256": "75f0d8da6ea5b45f25891bcf8535c3c1c1459996033bc7eb21567837ca95b3c5"
+    }
+  ],
+  "downloads": [],
+  "note": "Scoped code fix and synthetic verification. No physical microphone or learner audio used; local transcription not enabled automatically. Installer, device and distribution qualification remain separate."
+}
