@@ -1,0 +1,56 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "recorded_date": "2026-10-28",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "8565c603998d25e000a95e8e8282257e7242ebec",
+  "change": "Distinct username and password field guidance, with English/Danish wording and screen-reader descriptions.",
+  "validation_policy_changed": false,
+  "stored_credentials_changed": false,
+  "username_length": "3-64 permitted characters",
+  "new_password_minimum_characters": 12,
+  "existing_sign_in_passwords_preserved": true,
+  "verification": {
+    "rust_tests_passed": 144,
+    "domain": 23,
+    "server": 75,
+    "interface": 46,
+    "format_check_passed": true,
+    "windows_desktop_build_passed": true,
+    "production_web_build_passed": true,
+    "focused_read_only_browser_checks_passed": 5,
+    "browser_locales": [
+      "en"
+    ],
+    "danish_copy_in_source": true,
+    "registration_or_login_submitted": false,
+    "real_profiles_used": false,
+    "physical_devices_used": false,
+    "model_calls": 0,
+    "native_gui_verified": false,
+    "clean_machine_verified": false,
+    "broader_account_browser_checks_rerun": false,
+    "fresh_advisory_audit": false
+  },
+  "engineering_artifacts_not_published": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 25314304,
+      "sha256": "4c60c86c083e2bf328538b56f2e42e5778a036c322a4350cd35af628dc686704"
+    },
+    {
+      "file": "danskmentor-server.exe",
+      "bytes": 13310976,
+      "sha256": "edb296e5c8a98dccc8df0c947c85e0bd32eba9c6df86986d6bab9b7c321d216a"
+    },
+    {
+      "file": "production WebAssembly",
+      "bytes": 2398253,
+      "sha256": "9474a60540135502badbdba3e4537e629d454bc12130baaf5f29a828fbec1129"
+    }
+  ],
+  "previous_account_checkpoint": "manifests/local-accounts-checkpoint.json",
+  "downloads": [],
+  "note": "Build identities and scoped engineering verification only. No executable, database, installer, APK or IPA published."
+}
