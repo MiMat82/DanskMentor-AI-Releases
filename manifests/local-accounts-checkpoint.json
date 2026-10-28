@@ -1,0 +1,75 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "tagline": "AI-guided Danish learning and exam preparation.",
+  "endorsement": "by Novalon Learn",
+  "recorded_date": "2026-10-28",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "a60f6353cc918c4c64c87de393372c48e8093d16",
+  "architecture": {
+    "backend": "Rust / Axum",
+    "database": "SQLite compiled into the software, automatically created in local user application data",
+    "interface": "Rust / Dioxus 0.7.10"
+  },
+  "local_accounts": {
+    "saved_data_and_stable_ids_survive_scoped_restart": true,
+    "explicit_switch_user": true,
+    "existing_default_data_unchanged_during_qa": true,
+    "populated_database_distributed": false,
+    "first_account": "local administrator and learner",
+    "additional_accounts": "learner, with administrative role management retained",
+    "separate_profiles_and_learning": true,
+    "create_after_initial_setup": true
+  },
+  "verification": {
+    "microphone_or_model_calls_in_account_acceptance": 0,
+    "production_wasm_build_passed": true,
+    "rust_tests_passed": 144,
+    "native_release_build_passed": true,
+    "clean_machine_installation_verified": false,
+    "sqlite_external_dll_required": false,
+    "domain": 23,
+    "strict_clippy_passed": true,
+    "account_browser_checks_passed": 17,
+    "scope": "Two synthetic profiles with separate saved work, a verified service-process restart, 390-pixel layout, role checks, and current baseline regressions. The earlier startup-refused attempt is preserved and excluded.",
+    "server": 75,
+    "interface": 46,
+    "reopen_browser_checks_passed": 4,
+    "native_gui_operation_verified": false,
+    "baseline_browser_checks_passed": 43,
+    "format_passed": true
+  },
+  "engineering_artifacts_not_published": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 25312768,
+      "sha256": "8720cc5c24cd8013aafa6b2aa5631fea80184ef6b2e1a388bd80e3632dd8978c"
+    },
+    {
+      "file": "danskmentor-server.exe",
+      "bytes": 13310976,
+      "sha256": "edb296e5c8a98dccc8df0c947c85e0bd32eba9c6df86986d6bab9b7c321d216a"
+    },
+    {
+      "file": "production WebAssembly",
+      "bytes": 2397437,
+      "sha256": "87edcb3367ecee903473b4f8ef1f996d8cf4f779dade4823a2f02ab22be37a7b"
+    }
+  ],
+  "speaking_work": {
+    "physical_microphone_verified": false,
+    "implementation_preserved": true,
+    "pronunciation_assessment": false,
+    "end_to_end_acceptance_completed": false
+  },
+  "retained_distribution_gates": {
+    "prior_advisory_warnings": 5,
+    "yanked_package_check_complete": false,
+    "missing_captured_license_text_entries_per_target": 6,
+    "fresh_advisory_audit_for_account_update": false,
+    "signed_desktop_installer_apk_ipa_qualified": false
+  },
+  "downloads": [],
+  "note": "Engineering status and build identities only. No executable, model weights, learner database or credentials are uploaded by this checkpoint."
+}
