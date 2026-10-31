@@ -1,0 +1,96 @@
+{
+  "kind": "unpublished_engineering_checkpoint",
+  "published": false,
+  "product": "DanskMentor AI",
+  "recorded_date": "2026-10-31",
+  "source_repository": "https://github.com/MiMat82/DanskMentor-AI",
+  "source_revision": "ddb32ce4dc0260e56bd2990ba4988492b80c48d5",
+  "audited_application_revision": "1f482587edd853a63e090df5a61e2424d4991a05",
+  "source_revision_scope": "Completed audit, harnesses and evidence; no application code changes or rebuild",
+  "report_url": "https://github.com/MiMat82/DanskMentor-AI/blob/ddb32ce4dc0260e56bd2990ba4988492b80c48d5/docs/novalon/FULL_CHECK_2026-10-31.md",
+  "evidence_requires_source_repository_access": true,
+  "verdict": "development_preview_not_release_ready",
+  "version": null,
+  "release_tag": null,
+  "verification": {
+    "rust_tests_passed": 149,
+    "rust_test_breakdown": {
+      "domain": 23,
+      "server": 75,
+      "interface": 51
+    },
+    "native_capture_regressions_included": 5,
+    "format_passed": true,
+    "strict_clippy_passed": true,
+    "baseline_browser_checks_passed": 64,
+    "baseline_breakdown": {
+      "accounts": 17,
+      "account_restart": 4,
+      "core": 13,
+      "learning": 12,
+      "staff": 18
+    },
+    "local_tutor_checks_passed": 21,
+    "live_teaching_responses_reviewed": 4,
+    "teaching_quality_qualified": false,
+    "speech_passing_checks_by_preserved_run": [
+      18,
+      3,
+      5
+    ],
+    "speech_single_clean_run": false,
+    "speech_accuracy_qualified": false,
+    "real_whisper_cancellation_verified": true,
+    "native_embedded_service_checks_passed": 3,
+    "route_tab_viewport_snapshots": 98,
+    "every_control_state_verified": false,
+    "grouped_ui_defects": 4,
+    "accessibility_scans": 42,
+    "accessibility_clean_scans": 0,
+    "accessibility_rule_categories": 4,
+    "fresh_dependency_audit": {
+      "rustsec_revision": "2295466c4e9df26647fd67d8fa1c705ac2fc7f81",
+      "vulnerability_category_entries": 0,
+      "yanked_entries": 0,
+      "informational_advisories": 5,
+      "deny_warnings_exit_code": 1
+    },
+    "physical_microphone_tested": false,
+    "native_gui_fully_verified": false,
+    "clean_machine_installation_verified": false,
+    "android_ios_qualified": false,
+    "real_learner_database_used": false,
+    "personal_recordings_used": false,
+    "cloud_inference_used": false
+  },
+  "outstanding_findings": [
+    "Preview exam creation writes saved account attempts and preview exposes account history",
+    "Pending Profile/Settings saves overwrite newer unsaved edits",
+    "System theme changes are not applied live and Library overflows a phone viewport",
+    "Document language, sidebar ARIA, avatar contrast and exam landmark accessibility defects",
+    "Unsupported AI follow-up activities and incomplete repeated-speech transcription",
+    "Reviewed curricula, real exam assembly and PD1/PD2/PD3 are unfinished",
+    "Password recovery, full account deletion and backup/restore deletion replay are absent",
+    "Native service instance/version binding and whole-app speech shutdown require work",
+    "Dependency, license, signing, installation and device release gates remain"
+  ],
+  "engineering_artifacts_not_published": [
+    {
+      "file": "danskmentor-ui.exe",
+      "bytes": 25324032,
+      "sha256": "70368aa8b56e1b00c96be802867ddc7c8696eccf63a48419341108fd3b29d931"
+    },
+    {
+      "file": "danskmentor-server.exe",
+      "bytes": 13310976,
+      "sha256": "edb296e5c8a98dccc8df0c947c85e0bd32eba9c6df86986d6bab9b7c321d216a"
+    },
+    {
+      "file": "indexed production WebAssembly",
+      "bytes": 2400185,
+      "sha256": "75f0d8da6ea5b45f25891bcf8535c3c1c1459996033bc7eb21567837ca95b3c5"
+    }
+  ],
+  "downloads": [],
+  "note": "Audit completed, application fixes outstanding. Existing manifests and artifacts are preserved. No version tag, installer, executable download, APK or IPA is published by this checkpoint."
+}
